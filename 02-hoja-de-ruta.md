@@ -24,9 +24,9 @@ Cada fase termina con algo **funcionando** antes de pasar a la siguiente. Tildá
 
 **Listo cuando:** podés explicar cada pantalla en una frase.
 
-- [ ] Bocetos móviles de 4 pantallas: Hoy, Partido, Tabla y Equipo
-- [ ] Guía de estilo de una página: colores, tipografía y 3 componentes (tarjeta de partido, fila de tabla, barra de navegación)
-- [ ] Tareas de las fases 2 a 4 cargadas en GitHub Issues
+- [x] Bocetos móviles de 4 pantallas: Hoy, Partido, Tabla y Equipo
+- [x] Guía de estilo de una página: colores, tipografía y 3 componentes (tarjeta de partido, fila de tabla, barra de navegación)
+- [x] Tareas de las fases 2 a 4 cargadas en GitHub Issues
 
 ## Fase 2 · React con datos de ejemplo (2 semanas)
 
