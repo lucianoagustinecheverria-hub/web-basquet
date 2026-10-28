@@ -8,3 +8,8 @@
   font-size: 20px;
   margin: 0 0 var(--espacio-4);
 }
+
+.fuente {
+  font-size: 14px;
+  color: var(--color-texto-suave);
+}

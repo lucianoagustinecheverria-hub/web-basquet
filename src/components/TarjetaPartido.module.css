@@ -1,0 +1,38 @@
+.tarjeta {
+  background: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio);
+  padding: var(--espacio-3) var(--espacio-4);
+  margin-bottom: var(--espacio-3);
+}
+
+.estado {
+  margin: 0 0 var(--espacio-2);
+  font-size: 14px;
+  color: var(--color-texto-suave);
+}
+
+.enJuego {
+  color: var(--color-en-juego);
+  font-weight: 700;
+}
+
+.aviso {
+  color: var(--color-aviso);
+  font-weight: 700;
+}
+
+.fila {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--espacio-1) 0;
+}
+
+.puntos {
+  font-size: 24px;
+  font-variant-numeric: tabular-nums;
+}
+
+.ganador {
+  font-weight: 700;
+}
