@@ -32,10 +32,10 @@ Cada fase termina con algo **funcionando** antes de pasar a la siguiente. Tildá
 
 **Listo cuando:** la página Hoy se ve bien en tu celular, sin base de datos todavía.
 
-- [ ] Componente `TarjetaPartido` y lista de partidos
-- [ ] Selector de día (estado)
-- [ ] Datos desde `partidos-ejemplo.json`
-- [ ] Publicado en Vercel
+- [x] Componente `TarjetaPartido` y lista de partidos
+- [x] Selector de día (estado)
+- [x] Datos desde `partidos-ejemplo.json`
+- [x] Publicado en Vercel
 
 ## Fase 3 · Base de datos (1 a 2 semanas)
 

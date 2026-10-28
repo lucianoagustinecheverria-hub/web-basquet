@@ -6,7 +6,7 @@ Sitio web **no oficial** para seguir el básquet argentino desde el celular: par
 
 Proyecto personal de aprendizaje y portfolio.
 
-**Estado:** Fase 0 · Planificación y entorno.
+**Estado:** Fase 2 completada
 
 ## Objetivo
 
