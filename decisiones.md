@@ -71,6 +71,13 @@ Formato: contexto → opciones → decisión → consecuencias. Si una decisión
 - **Decisión:** **La Bandeja** (en básquet, un tipo de lanzamiento cerca del aro). Repositorio y carpeta: `labandeja`. Dominio: labandeja.net (ver D-005).
 - **Consecuencias:** antes de difundirlo hay que revisar que no choque con marcas o cuentas existentes (INPI, Instagram, X, TikTok). Una búsqueda web rápida no mostró un sitio de básquet con ese nombre, pero eso no reemplaza una búsqueda de marcas.
 
+## D-010 · Estado en un componente de cliente chico
+
+- **Estado:** aceptada · 2026-10-27
+- **Contexto:** el selector de día necesita estado, que solo funciona en componentes de cliente.
+- **Decisión:** `page.js` queda como componente de servidor y el estado vive en `PantallaHoy`, el componente de cliente más chico posible.
+- **Consecuencias:** en la Fase 4, `page.js` lee la base de datos en el servidor y le pasa los datos a `PantallaHoy` sin cambiar la interfaz.
+
 ---
 
 ## Plantilla para decisiones nuevas
