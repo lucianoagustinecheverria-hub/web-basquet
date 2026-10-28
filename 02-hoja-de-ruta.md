@@ -10,15 +10,15 @@ Cada fase termina con algo **funcionando** antes de pasar a la siguiente. Tildá
 
 **Listo cuando:** cambiás un texto, hacés `git push` y la web publicada se actualiza sola.
 
-- [ ] Completar los puntos ✏️ de `01-vision-y-alcance.md`
-- [ ] Instalar Node.js (versión LTS), Git y VS Code; verificar con `node -v` y `git --version`
-- [ ] Configurar Git (nombre y email) y crear la cuenta de GitHub
-- [ ] Crear el proyecto Next.js
-- [ ] Copiar `README.md` y la carpeta `docs/` al proyecto
-- [ ] Primer commit y `push` a GitHub
-- [ ] Conectar Vercel y publicar
-- [ ] Probar el ciclo: cambio → push → web actualizada
-- [ ] Anotar qué aprendiste y qué se trabó (diario de aprendizaje, opcional pero recomendado)
+- [x] Completar los puntos ✏️ de `01-vision-y-alcance.md`
+- [x] Instalar Node.js (versión LTS), Git y VS Code; verificar con `node -v` y `git --version`
+- [x] Configurar Git (nombre y email) y crear la cuenta de GitHub
+- [x] Crear el proyecto Next.js
+- [x] Copiar `README.md` y la carpeta `docs/` al proyecto
+- [x] Primer commit y `push` a GitHub
+- [x] Conectar Vercel y publicar
+- [x] Probar el ciclo: cambio → push → web actualizada
+- [x] Anotar qué aprendiste y qué se trabó (diario de aprendizaje, opcional pero recomendado)
 
 ## Fase 1 · Diseño sin código (1 a 2 semanas)
 
