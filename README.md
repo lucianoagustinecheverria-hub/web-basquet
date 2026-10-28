@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# La Bandeja · Básquet argentino
 
-## Getting Started
+Dominio previsto: **labandeja.net**
 
-First, run the development server:
+Sitio web **no oficial** para seguir el básquet argentino desde el celular: partidos de hoy, resultados por cuarto, tabla de posiciones y páginas de equipos. Empieza por la Liga Nacional.
+
+Proyecto personal de aprendizaje y portfolio.
+
+**Estado:** Fase 0 · Planificación y entorno.
+
+## Objetivo
+
+Que una persona entre y encuentre en segundos qué partidos hay hoy, cómo salieron o cómo van, y cómo está la tabla. Más detalle en [`docs/01-vision-y-alcance.md`](docs/01-vision-y-alcance.md).
+
+## Stack
+
+| Pieza | Uso |
+|---|---|
+| Next.js (React) | Sitio web |
+| Supabase (Postgres) | Base de datos |
+| Python | Scripts de carga y procesamiento de datos |
+| Vercel | Publicación |
+
+## Documentación
+
+- [Visión y alcance](docs/01-vision-y-alcance.md)
+- [Hoja de ruta](docs/02-hoja-de-ruta.md)
+- [Registro de decisiones](docs/decisiones.md)
+
+## Cómo correrlo en tu compu
+
+> Se completa en la Fase 0.
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Después abrí http://localhost:3000.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Datos y aviso
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Este sitio **no está afiliado** a la Asociación de Clubes de Básquetbol, a la Liga Nacional ni a ningún club. Los datos se cargan indicando su fuente y la fecha de actualización. Los nombres, escudos y marcas pertenecen a sus respectivos dueños.
 
-## Learn More
+## Licencia
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+✏️ Pendiente de decidir.
