@@ -1,0 +1,16 @@
+.grupo {
+  margin-bottom: var(--espacio-5);
+}
+
+.competicion {
+  margin: 0 0 var(--espacio-2);
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-texto-suave);
+}
+
+.vacio {
+  padding: var(--espacio-5) 0;
+  color: var(--color-texto-suave);
+}

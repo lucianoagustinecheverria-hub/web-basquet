@@ -1,12 +1,14 @@
 import datos from "../data/partidos-ejemplo.json";
-import TarjetaPartido from "../components/TarjetaPartido";
+import ListaPartidos from "../components/ListaPartidos";
 import styles from "./page.module.css";
 
 export default function Home() {
+  const deHoy = datos.partidos.filter((partido) => partido.dia === 0);
+
   return (
     <main className={styles.pagina}>
       <h1 className={styles.titulo}>La Bandeja</h1>
-      <TarjetaPartido partido={datos.partidos[4]} />
+      <ListaPartidos partidos={deHoy} />
       <p className={styles.fuente}>
         Fuente: {datos.fuente} · Actualizado {datos.actualizado}
       </p>
