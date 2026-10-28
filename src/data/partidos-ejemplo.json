@@ -1,0 +1,77 @@
+{
+  "fuente": "Datos de ejemplo",
+  "actualizado": "14:32",
+  "partidos": [
+    {
+      "id": 1,
+      "competicion": "Liga Nacional",
+      "dia": 0,
+      "hora": "19:00",
+      "estado": "final",
+      "local": { "nombre": "Equipo A", "puntos": 84 },
+      "visitante": { "nombre": "Equipo B", "puntos": 79 },
+      "parciales": [[20, 18], [22, 20], [18, 21], [24, 20]]
+    },
+    {
+      "id": 2,
+      "competicion": "Liga Nacional",
+      "dia": 0,
+      "hora": "20:30",
+      "estado": "en_juego",
+      "cuartoActual": 3,
+      "local": { "nombre": "Equipo C", "puntos": 54 },
+      "visitante": { "nombre": "Equipo D", "puntos": 51 },
+      "parciales": [[15, 12], [21, 20], [18, 19]]
+    },
+    {
+      "id": 3,
+      "competicion": "Liga Nacional",
+      "dia": 0,
+      "hora": "21:30",
+      "estado": "programado",
+      "local": { "nombre": "Equipo E", "puntos": null },
+      "visitante": { "nombre": "Equipo F", "puntos": null },
+      "parciales": []
+    },
+    {
+      "id": 4,
+      "competicion": "Liga Argentina",
+      "dia": 0,
+      "hora": "21:00",
+      "estado": "final",
+      "local": { "nombre": "Equipo G", "puntos": 71 },
+      "visitante": { "nombre": "Equipo H", "puntos": 75 },
+      "parciales": [[18, 20], [17, 19], [20, 18], [16, 18]]
+    },
+    {
+      "id": 5,
+      "competicion": "Liga Argentina",
+      "dia": 0,
+      "hora": "22:00",
+      "estado": "postergado",
+      "local": { "nombre": "Equipo I", "puntos": null },
+      "visitante": { "nombre": "Equipo J", "puntos": null },
+      "parciales": []
+    },
+    {
+      "id": 6,
+      "competicion": "Liga Nacional",
+      "dia": -1,
+      "hora": "21:00",
+      "estado": "final",
+      "local": { "nombre": "Equipo K", "puntos": 90 },
+      "visitante": { "nombre": "Equipo L", "puntos": 71 },
+      "parciales": [[25, 15], [20, 18], [22, 20], [23, 18]]
+    },
+    {
+      "id": 7,
+      "competicion": "Liga Nacional",
+      "dia": 1,
+      "hora": "21:00",
+      "estado": "programado",
+      "local": { "nombre": "Equipo A", "puntos": null },
+      "visitante": { "nombre": "Equipo C", "puntos": null },
+      "parciales": []
+    }
+  ]
+}
